@@ -1,0 +1,58 @@
+@charset "UTF-8";
+/.Select{
+				box-shadow:  0 0 0 1px #000000;
+				background: #fff;
+				float: left;
+				height: 38px;
+				line-height: 38px;
+				position: relative;
+				margin: 10px;
+				width: 200px;
+			}
+			.Select .show{
+				box-shadow: 1px 0 0 0 #000000;
+				float: left;
+				height: inherit;
+				line-height: inherit;
+				text-indent: 10px;
+				width: 80%;
+			}
+			.Select .arrow{
+				float: left;
+				height: inherit;
+				line-height: inherit;
+				text-align: center;
+				width: 20%;
+			}
+			.Select .list{
+				box-shadow: 1px 0 0 0 #000,-1px 0 0 0 #000,0 1px 0 0 #000;
+				background: #fff;
+				display: none;
+				float: left;
+				min-height: 0;
+				max-height: 150px;
+				position: relative;
+				overflow-x: none;
+				overflow-y: auto;
+				width: 100%;
+				z-index: 10000;
+			}
+			.Select .listinfo{
+				float: left;
+				box-shadow: 0 1px 0 0 #000;
+				height: 38px;
+				text-indent: 10px;
+				width: 100%;
+			}
+			.Select .listinfo:hover{
+				background: #008ecf;
+				color: #fff;
+			}
+			.Select .selected{
+				background: #008dcf;
+				color: #fff;
+			}
+			.listing{
+				float: left;
+				width: 100%;
+			}
